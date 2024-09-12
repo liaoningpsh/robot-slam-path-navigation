@@ -1,0 +1,8 @@
+prefix=/home/pp/lingao_ws/install
+
+Name: lingao_base
+Description: Description of lingao_base
+Version: 1.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -llingao_base
+Requires: roscpp tf2 tf2_ros nav_msgs lingao_msgs geometry_msgs sensor_msgs

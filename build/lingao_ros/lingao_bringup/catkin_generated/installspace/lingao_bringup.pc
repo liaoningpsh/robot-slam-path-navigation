@@ -1,0 +1,8 @@
+prefix=/home/pp/lingao_ws/install
+
+Name: lingao_bringup
+Description: Description of lingao_bringup
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
